@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!--Navigation Links-->
+        <nav class="navbar">
+            <h1 class="logo"><a href="#hero">CodeCreator</a></h1>
+            <ul class="nav-links">
+                <li><a href="#aboutme">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#profile">PROFILE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Content-->
+    <main>
+        <section id="hero" class="hero-section">
+            <!-- Your first quote acts as a high-impact kicker line -->
+            <h1 class="hero-kicker">The Future of Tech, Starts With 1 Dev</h1> 
+            <h2 class="hero-title">Shaping the Future, of a New Career</h2>
+            
+            <p class="hero-subtitle">From the basic HTML tags, to high quality UI designed websites</p>
+            <a href="#profile" class="btn">LEARN MORE</a>
+        </section>
+
+        <section id="aboutme" class="about-section">
+            <h3 class="section-titles">ABOUT ME</h3>
+            <div class="box-sections">
+                <div class="box" id="code">
+                    <i class="fa-solid fa-code"></i>
+                    <h4 class="box-titles">Programming Web Applications</h4>
+                    <p>Beginning as a new hobby, I love setting the structure of a website that
+                    millions may use in the future
+                    </p>
+                </div>
+                <div class="box" id="speedcubing">
+                    <i class="fa-solid fa-cube"></i>
+                    <h4 class="box-titles">Speedcubing</h4>
+                    <p>Solving a Rubik's Cube in the fastest time possible, may be one of the most fun activities</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-person-running"></i>
+                    <h4 class="box-titles">Cross Country</h4>
+                    <p>The sport tests the capacity of how far one can go</p>
+                </div>
+
+            </div>
+        </section>
+        <section id="projects" class="projects-section">
+            <h3 class="section-titles">PROJECTS</h3>
+            <div class="box-sections">
+                <div class="box">
+                    <i class="fa-brands fa-steam"></i>
+                    <h4 class="box-titles">Remix of Steam, MatchX</h4>
+                    <p>
+                    MatchX is a HTML & CSS remix of Steam. It is dedicated to sharing free and accesible gaming software
+                    </p>
+                    <span class="s-text">Disclaimer: This website is not fully functional, the purpose was for applying CSS to real world examples</span>
+                    <a
+                    target="_blank"
+                    rel="noopener"
+                    href="https://codeprojects.org/projects/weblab/dc4a6b06-92c0-4c8d-95ac-2fbdd9d575dc"
+                    class="btn"
+                    >VISIT IT!</a>
+                </div>
+                <div class="box">
+                    <i class="fa-brands fa-html5"></i>
+                    <h4 class="box-titles">HTML, CSS, and JavaScript Intro Website</h4>
+                    <p>
+                        Built a website that introduces beginners to the basics of the Trilogy of Web Dev
+                    </p>
+                    <a 
+                    target="_blank"
+                    rel="noopener"
+                    href="https://codeprojects.org/projects/weblab/fcd75e8f-4022-4073-aa72-7d76b8734569"
+                    class="btn"
+                    >VISIT IT!</a>
+                </div>
+                <div class="box">
+                    <h4 class="box-titles">Game Dev with Code.org</h4>
+                    <p>
+                        Built a small version of Geometry Dash on Code.org Game Lab
+                    </p>
+                    <a
+                    target="_blank"
+                    rel="noopener"
+                    href="https://studio.code.org/projects/gamelab/8fca9623-7501-44d1-a4d9-03ba5f2f3bcf"
+                    class="btn"
+                    >VISIT IT!</a>
+                </div>
+            </div>
+        </section>
+        <section id="profile">
+            <h3 class="section-titles">Profile</h3>
+            <div class="card">
+                <div class="card-header">
+                    <img class="card-avatar" src="profile.jpg" alt="Profile picture"/>
+                    <h1 class="card-fullname">Reda Hrimich</h1>
+                    <h2 class="card-jobtitle"> Aspiring Frontend, Web, & UI Developer</h2>
+                </div>
+            </div>
+            <div class="card-section is-active" id="about">
+                <div class="card-content">
+                    <p class="card-subtitle">ABOUT</p>
+                    <p class="card-desc">
+                    As an aspiring frontend, web, and UI developer I am dedicated toward
+                    learning the foundations of visual design and technical execution, building clean, interactive,
+                    and user-friendly digital experiences using HTML, CSS, and Vanilla JavaScript.
+                    </p>
+                </div>
+                <div class="card-social">
+                    <a 
+                    href="https://www.freecodecamp.org/rephantom"
+                    rel="noopener"
+                    target="_blank"
+                    class="social-btn"
+                    ><i class="fa-brands fa-free-code-camp"></i></a>
+                    <a 
+                    href="https://www.codedex.io/@RephantomOP"
+                    rel="noopener"
+                    target="_blank"
+                    class="social-btn"
+                    ><i class="fa-brands fa-codepen"></i></a>
+
+                    <!-- REMEMBER TO PLACE GITHUB LINK-->
+                     <a 
+                    href="#"
+                    rel="noopener"
+                    target="_blank"
+                    class="social-btn"
+                    ><i class="fa-brands fa-square-github"></i></a>
+                </div>
+            </div>
+            <div class="card-section" id="contact">
+                <div class="card-content">
+                    <p class="card-subtitle">CONTACT</p>
+                    <div class="card-content-wrapper">
+                        <div class="card-contact">
+                            <i class="fa-solid fa-location-dot"></i>
+                            403 Freedom Street, Reston, VA 20190.
+                        </div>
+                        <div class="card-contact">
+                            <i class="fa-solid fa-phone"></i>
+                            403 Freedom Street, Reston, VA 20190.
+                        </div>
+                        <div class="card-contact">
+                            <i class="fa-solid fa-envelope"></i>
+                            rhrimich5@gmail.com
+                        </div>
+                        <button class="contact-me">WORK TOGETHER</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-buttons">
+                <button data-section="#about" class="is-active">ABOUT</button>
+                <button data-section="#experience">EXPERIENCE</button>
+                <button data-section="#contact">CONTACT</button>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
