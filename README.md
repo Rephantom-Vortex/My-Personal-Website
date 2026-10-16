@@ -1,9 +1,18 @@
 # 👋 Hi, I'm Reda Hrimich
 
 # My-Personal-Website
-**Visit the Website On:**
+**Visit the Live Demo On:**
 🚀 **https://my-bio.boomurl.me/**
 
-# **About Me**
-*Skills that I Am Improving
-This is my very first README.md file, so pls keep that in mind.
+# 🪓 Built With The Following Standard Resources & Technologies
+* **HTML5** - Semantic structure of the website
+* **CSS** - Custom styling and designs
+* **Google Fonts** - Used the Manrope, Roboto Slab, and Inter font families
+* **Font Awesome** - Font Awesome icons were used throughout the project
+
+# ✉ Contact Me
+Feel free to reach out to me, cuz I low-key need friends and touch grass
+* **Github:** [@Rephantom-Vortex](https://github.com/Rephantom-Vortex)
+* **Codedex:** [@RephantomOP](https://www.codedex.io/@RephantomOP)
+* **freeCodeCamp:** [@phantomstorm___](https://www.freecodecamp.org/phantomstorm___)
+* **Email:** rhrimich5@gmail.com
