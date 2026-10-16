@@ -16,3 +16,5 @@ Feel free to reach out to me, cuz I low-key need friends and touch grass
 * **Codedex:** [@RephantomOP](https://www.codedex.io/@RephantomOP)
 * **freeCodeCamp:** [@phantomstorm___](https://www.freecodecamp.org/phantomstorm___)
 * **Email:** rhrimich5@gmail.com
+
+This is my first README file so pls don't crash out if I missed something.
